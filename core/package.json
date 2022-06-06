@@ -1,0 +1,20 @@
+{
+  "name": "core",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch --outDir dist",
+    "build": "tsc --outDir dist",
+    "lint": "eslint *.ts*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.11",
+    "@types/react-dom": "^18.0.5",
+    "eslint-config-custom": "workspace:*",
+    "react": "^18.1.0",
+    "tsconfig": "workspace:*",
+    "typescript": "^4.7.3"
+  }
+}
