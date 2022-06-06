@@ -1,1 +1,0 @@
-{"version":3,"file":"mf-remote.component.d.ts","sourceRoot":"","sources":["../../../module-federation/components/mf-remote.component.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAE,EAAE,EAAkB,MAAM,OAAO,CAAC;AAE3C,OAAO,EAAE,aAAa,EAAE,MAAM,UAAU,CAAC;AA0BzC,aAAK,aAAa,GAAG;IACnB,aAAa,EAAE,aAAa,CAAC;CAC9B,CAAA;AAED,eAAO,MAAM,QAAQ,EAAE,EAAE,CAAC,aAAa,CA0BtC,CAAA"}
