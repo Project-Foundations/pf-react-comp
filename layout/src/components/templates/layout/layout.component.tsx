@@ -10,7 +10,9 @@ type LayoutProps = {
 export const Layout: FC<LayoutProps> = ({ appNav, children }): JSX.Element => (
   <>
     <Header />
-    <div className="base-layout-body flex">
+    <div className="flex" style={{
+      height: "calc(100vh - 6.1rem)"
+    }}>
       { appNav }
       <main className="flex-1">{children}</main>
     </div>

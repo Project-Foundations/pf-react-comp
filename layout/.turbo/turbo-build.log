@@ -1,0 +1,5 @@
+layout:build: cache hit, replaying output [2m9a567fb8d0cce671[0m
+[36mlayout:build: [0m
+[36mlayout:build: [0m> layout@0.0.0 build /run/media/byron/Code/examples/micro-frontends/pfmf-react-root/pf-react-comp/layout
+[36mlayout:build: [0m> tsc --outDir dist
+[36mlayout:build: [0m

@@ -36,15 +36,15 @@ export const MFRemote: FC<MFRemoteProps> = ({ microFrontend }): JSX.Element => {
   });
 
   if (!microFrontend) {
-    return <h2>Not system specified</h2>;
-  }
-
-  if (!ready) {
-    return <h2>Loading dynamic script: {microFrontend.url}</h2>;
+    return <h2>Not micro frontend specified</h2>;
   }
 
   if (failed) {
-    return <h2>Failed to load dynamic script: {microFrontend.url}</h2>;
+    return <h2>The micro frontend: {microFrontend.module} is not available</h2>;
+  }
+
+  if (!ready) {
+    return <h2>Loading micro frontend: {microFrontend.module}</h2>;
   }
 
   const Component = lazy(
